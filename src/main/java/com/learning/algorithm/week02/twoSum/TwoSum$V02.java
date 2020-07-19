@@ -1,4 +1,4 @@
-package com.learning.algorithm.week01.twoSum;
+package com.learning.algorithm.week02.twoSum;
 
 import java.util.Arrays;
 import java.util.HashMap;

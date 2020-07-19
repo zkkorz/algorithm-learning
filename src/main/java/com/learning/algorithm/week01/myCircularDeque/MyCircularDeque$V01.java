@@ -1,8 +1,6 @@
 package com.learning.algorithm.week01.myCircularDeque;
 
-import java.util.Objects;
-
-public class MyCircularDeque {
+public class MyCircularDeque$V01 {
 
     class Node{
         Node pre;
@@ -25,7 +23,7 @@ public class MyCircularDeque {
     private Node lastNode;
 
     /** Initialize your data structure here. Set the size of the deque to be k. */
-    public MyCircularDeque(int k) {
+    public MyCircularDeque$V01(int k) {
         if(k < 0){
             throw new IllegalArgumentException("Deque size is less than 0!");
         }
@@ -128,7 +126,7 @@ public class MyCircularDeque {
     }
 
     public static void main(String[] args) {
-        MyCircularDeque obj = new MyCircularDeque(3);
+        MyCircularDeque$V01 obj = new MyCircularDeque$V01(3);
         boolean param_1 = obj.insertFront(1);
         boolean param_2 = obj.insertLast(2);
         boolean param_3 = obj.deleteFront();
